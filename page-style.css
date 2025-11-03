@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.no-select {
+  -webkit-user-select: none;  /* Safari */
+  -moz-user-select: none;     /* Firefox */
+  -ms-user-select: none;      /* IE/Edge */
+  user-select: none;          /* Standard */
+}
+
+
 body {
     font-family: 'Fredoka', sans-serif;
     background: linear-gradient(135deg, #ffc4e5 0%, #ff94d4 25%, #ff6eb4 75%, #e05199 100%);
