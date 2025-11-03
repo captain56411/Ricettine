@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
-    background-image: url('background.jpeg');
+    background-image: url('./Files/sfondo.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
